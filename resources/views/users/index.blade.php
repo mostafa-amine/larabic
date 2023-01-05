@@ -1,6 +1,6 @@
-@extends('layouts.app')
+<x-layouts.app-layout>
 
-@section('content')
+<x-slot:content>
     <!-- Content Header (Page header) -->
     <div class="content-header">
         <div class="container-fluid">
@@ -56,4 +56,5 @@
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
-@endsection
+</x-slot:content>
+</x-layouts.app-layout>
